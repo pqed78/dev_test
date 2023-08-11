@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000190] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.019140] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.025093] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/optimus/dev_test/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/optimus/dev_test/install/my_package'], 'cwd': '/home/optimus/dev_test/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ROS2-humble-v1)'), ('LANGUAGE', 'en_US:'), ('USER', 'optimus'), ('LC_TIME', 'ko_KR.UTF-8'), ('GIO_MODULE_DIR', '/home/optimus/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/137/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimus'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '2'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/optimus/dev_test/src'), ('TERM_PROGRAM_VERSION', '1.81.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/137/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/optimus/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/137/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/137/usr/share/code/code'), ('MANAGERPID', '1638'), ('SYSTEMD_EXEC_PID', '1823'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11649'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/optimus/dev_test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'optimus'), ('JOURNAL_STREAM', '8:36333'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'optimus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/optimus/anaconda3/envs/ROS2-humble-v1/bin:/home/optimus/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/optimus-virtual-machine:@/tmp/.ICE-unix/1783,unix/optimus-virtual-machine:/tmp/.ICE-unix/1783'), ('GTK_EXE_PREFIX', '/snap/code/137/usr'), ('INVOCATION_ID', 'a3bf932a59294aa9b609e3b5c94ceb22'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/137/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/optimus/anaconda3'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DLJF91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6159b73fe7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/optimus/snap/code/137/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimus/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('CONDA_DEFAULT_ENV', 'ROS2-humble-v1'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimus/dev_test/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimus/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/home/optimus/snap/code/137/.local/share:/home/optimus/snap/code/137:/snap/code/137/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/optimus/anaconda3/envs/ROS2-humble-v1'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098856] (-) TimerEvent: {}
+[0.199540] (-) TimerEvent: {}
+[0.299920] (-) TimerEvent: {}
+[0.385176] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400140] (-) TimerEvent: {}
+[0.501064] (-) TimerEvent: {}
+[0.589695] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601651] (-) TimerEvent: {}
+[0.603092] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.703222] (-) TimerEvent: {}
+[0.732091] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.739263] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.741527] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.743011] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.750851] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.803334] (-) TimerEvent: {}
+[0.862588] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.870210] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.870843] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.871314] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.875753] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.903545] (-) TimerEvent: {}
+[1.003882] (-) TimerEvent: {}
+[1.104301] (-) TimerEvent: {}
+[1.204757] (-) TimerEvent: {}
+[1.307044] (-) TimerEvent: {}
+[1.407582] (-) TimerEvent: {}
+[1.415911] (my_package) StdoutLine: {'line': b'-- Found Python3: /home/optimus/anaconda3/envs/ROS2-humble-v1/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.508173] (-) TimerEvent: {}
+[1.609077] (my_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.609304] (-) TimerEvent: {}
+[1.685848] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.713713] (-) TimerEvent: {}
+[1.740062] (my_package) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.740471] (my_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[1.740603] (my_package) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[1.740706] (my_package) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[1.740882] (my_package) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.740986] (my_package) StderrLine: {'line': b'  execute_process(/home/optimus/anaconda3/envs/ROS2-humble-v1/bin/python3.10\n'}
+[1.741083] (my_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.741177] (my_package) StderrLine: {'line': b'  /home/optimus/dev_test/src/my_package/package.xml\n'}
+[1.741270] (my_package) StderrLine: {'line': b'  /home/optimus/dev_test/build/my_package/ament_cmake_core/package.cmake)\n'}
+[1.741362] (my_package) StderrLine: {'line': b'  returned error code 1\n'}
+[1.741454] (my_package) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.741545] (my_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.741637] (my_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.741727] (my_package) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[1.741817] (my_package) StderrLine: {'line': b'\n'}
+[1.741909] (my_package) StderrLine: {'line': b'\x1b[0m\n'}
+[1.742520] (my_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.742690] (my_package) StdoutLine: {'line': b'See also "/home/optimus/dev_test/build/my_package/CMakeFiles/CMakeOutput.log".\n'}
+[1.747925] (my_package) CommandEnded: {'returncode': 1}
+[1.804002] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[1.814521] (-) EventReactorShutdown: {}
